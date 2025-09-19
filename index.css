@@ -1,0 +1,117 @@
+/* General Container */
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 16px;
+}
+
+form input:focus {
+  border-color: #007bff;
+}
+
+form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+/* Contact List */
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.contact-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  padding: 10px 12px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  transition: transform 0.2s ease;
+}
+
+.contact-item:hover {
+  transform: scale(1.01);
+}
+
+.contact-info {
+  font-weight: 500;
+  color: #333;
+}
+
+/* Delete Button */
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #a71d2a;
+}
+
+/* No Contacts Message */
+.no-contacts {
+  text-align: center;
+  color: #777;
+  font-style: italic;
+}
+
+/* Pagination Buttons */
+button {
+  margin: 5px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:disabled {
+  background: #ddd;
+  cursor: not-allowed;
+}
